@@ -1,9 +1,5 @@
 # lam
 
-laminates 
-and
-effective properties for composites
+Model and analyse representative laminates (= square plate). 
 
-I'm working on proper documentation.
-
-
+Calculate effective properties for composites.
