@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Assuming we are in the 'root' of 'lam', where you see the directories
+% 'lam*' and 'effprop' and the template files 'runlam.mm' and 
+% 'runlamopt.mm'.
+
+% Goto a place where you can run the models, e.g. directory './run'.
+% (Make it if it does not exist.)
+% Start Matlab (or Octave)
+
+cd './run'
+
+% Adapt path to find program and input files.
+
+path('../lamprg',path);
+path('../laminp',path);
+path('../lamopt',path);
+path('../effprop',path);
+
+% Make subdirectory 'mat' where you run the models.
+
+if ~exist('mat/'), mkdir('mat/'); end;
+
+% When you are finished you might want to remove './run'.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
